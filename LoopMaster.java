@@ -14,7 +14,7 @@ class LoopMaster {
 
     // Imprime: Suma = X (X es 1+2+…+n)
     public static void imprimirSumaHastaN(int n) {
-
+        
         int suma = 0;
         for (int i = 1; i <= n; i++) {
             suma += i;
