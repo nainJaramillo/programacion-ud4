@@ -7,13 +7,13 @@ public class MenuInteractivo {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         int opcion ;
-
+        
         do{
-            System.out.print("-- MENU --");
-            System.out.print("1. Hola");
-            System.out.print("2. Hora");
-            System.out.print("3. Eco");
-            System.out.print("4. Salir");
+            System.out.println("-- MENU --");
+            System.out.println("1. Hola");
+            System.out.println("2. Hora");
+            System.out.println("3. Eco");
+            System.out.println("4. Salir");
 
             opcion = sc.nextInt();
             sc.nextLine();
@@ -35,8 +35,6 @@ public class MenuInteractivo {
                     System.out.print("Opción no válida");
              }   
         }while(opcion != 4);
-
-           
         
         
         sc.close();
